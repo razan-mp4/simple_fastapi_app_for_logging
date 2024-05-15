@@ -1,4 +1,5 @@
-# run command: uvicorn main:app --reload 
+# command to launch app: uvicorn main:app --reload 
+# view logs here: http://localhost:5601
 import logging
 import logstash
 from fastapi import Depends, FastAPI, Body
